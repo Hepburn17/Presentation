@@ -1,0 +1,120 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-slate: #434455;
+    --color-cloud: #f4f4fd;
+    --color-white: #ffffff;
+    --color-navy-blue: #2e2f42;
+    --color-black: #000000;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    background-color: var(--color-white);
+
+}
+
+ul {
+    list-style-type: none;
+}
+.content {
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 20px;
+    color: var(--color-navy-blue);
+    text-decoration: none;
+}
+
+.web {
+    text-transform: uppercase;
+    color: var(--color-iris);
+    text-align: left;
+    display: flex;
+    width: 44px;
+    text-decoration: none;
+}
+
+.studio-navyblue {
+    text-transform: uppercase;
+    color: var(--color-navy-blue);
+    display: flex;
+    width: 71px;
+    text-decoration: none
+}
+
+.header-border {
+    border: 0px 0px 1px 0px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.container {
+    width: 1158px;
+    margin: auto;
+    padding: 0 15px;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    width: 360px;
+    height: 300px;
+}
+
+.nav-links-list {
+    margin-left: 76px;
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+
+.logo {
+    letter-spacing: 0.03em;
+    line-height: 1.3em;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Raleway;
+}
+
+.heroimage {
+    padding: 188px 0 188px 0px;
+    background-color: var(--color-navy-blue);
+}
+
+.hero-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sh71-ctio {
+    margin-bottom: 48px;
+    font-size: 56px;
+    font-family: Roboto;
+    color: var(--color-white);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #000;
+    width: 496px;
+
+}
