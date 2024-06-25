@@ -20,6 +20,119 @@ p {
     box-sizing: border-box;
 }
 
+/* table css */
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.month {
+    text-align: center;
+}
+/* table css end*/
+
+/*accuracy table */
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.accu {
+    text-align: center;
+}
+
+/*accuracy table end*/
+
+/*prod css*/
+
+#customer {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customer td,
+#customer th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customer tr:nth-child(even) {
+    background-color: #BCC6CC;
+}
+
+#customer tr:hover {
+    background-color: #C54B8C;
+}
+
+#customer th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #EF7215;
+    color: white;
+}
+
+.prod {
+    text-align: center;
+    color: #000080;
+}
+
+/*prod css end*/
 
 body {
     font-family: Roboto, sans-serif;
