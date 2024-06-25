@@ -39,12 +39,6 @@ p {
     display: table;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    border: 1px solid #ddd;
-}
 
 table,
 th,
@@ -53,13 +47,13 @@ td {
     border-collapse: collapse;
 }
 
-th,
-td {
+#headcount th,
+#headcount td {
     text-align: left;
     padding: 16px;
 }
 
-tr:nth-child(even) {
+#headcount tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
