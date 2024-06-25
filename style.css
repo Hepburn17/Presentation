@@ -20,33 +20,42 @@ p {
     box-sizing: border-box;
 }
 
-/* prod table */
+/* image*/
 
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
+.man {
+    margin-top: 15%;
+    width: 100%;
+    height: 100%;
 }
 
-th,
-td {
-    padding: 10px;
+.image-container {
+    display: grid;
+    gap: 20px;
+    width: 70%;
+    margin: 0px auto;
 }
 
-th {
-    background-color: #FFB500;
+.stretched-image {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 221);
+    overflow: hidden;
 }
 
-td {
-    background-color: #FDDF95;
+.original-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
-.prod {
-    color: #000080;
+.filled-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid blue;
 }
 
-/*prod table end*/
+/*image end*/
 
 body {
     font-family: Roboto, sans-serif;
