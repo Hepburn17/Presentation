@@ -254,8 +254,8 @@ address {
 
 .what-are-we-doing-lists {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 8px 24px
+    grid-template-columns: auto;
+   column-gap: 24px;
 }
 
 .what-are-we-doing {
