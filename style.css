@@ -255,11 +255,11 @@ address {
 .what-are-we-doing-lists {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 24px
+    gap: 8px 24px
 }
 
 .what-are-we-doing {
-    padding-top: 120px;
+    padding-top: 0px;
 }
 
 .header3 {
