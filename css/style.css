@@ -129,6 +129,17 @@ address {
     color: var(--color-ocean);
 }
 
+.link-current::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--color-ocean);
+    position: absolute;
+    bottom: -1px;
+}
+
 .nav-contact-list {
     font-family: Roboto;
     font-weight: 400;
