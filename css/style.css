@@ -217,6 +217,7 @@ address {
 
 .effective-solutions {
     color: var(--color-white);
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
