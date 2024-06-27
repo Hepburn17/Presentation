@@ -203,6 +203,13 @@ address {
     }
 }
 
+.heroimage {
+        background-position: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url("../images/bg.jpg");
+    background-repeat: no-repeat;
+}
 
 .hero-container {
     text-align: center;
