@@ -216,13 +216,27 @@ address {
 }
 
 .effective-solutions {
-    margin-bottom: 48px;
-    font-size: 56px;
-    font-family: Roboto;
     color: var(--color-white);
-    text-align: center;
-    width: 496px;
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 48px;
+    
+    @media screen and (min-width: 768px) {
+            font-size: 56px;
+            line-height: 60px;
+            letter-spacing: 1.12px;
+    }
+    
+    @media screen and (min-width: 1158px) {
+            font-size: 56px;
+            line-height: 60px;
+            letter-spacing: 1.12px;
+    }
 }
 
 .order-service {
